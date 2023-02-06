@@ -10,6 +10,7 @@ function AddUser() {
 
 
   const handleAddUser = () => {
+
     if(!isEditMode) {
       const newUser={
         name: userName,
